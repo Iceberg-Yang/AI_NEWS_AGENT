@@ -1,0 +1,82 @@
+/* App.css */
+
+/* 让 body 和 html 占满整个视口，并居中内容 */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 主体卡片容器 */
+.app {
+  width: 90%;
+  max-width: 700px;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* 标题样式 */
+h1 {
+  font-size: 2.2rem;
+  color: #22428c;
+  margin-bottom: 30px;
+}
+
+/* 输入框样式 */
+input {
+  width: 85%;
+  padding: 14px;
+  font-size: 16px;
+  border: 1.5px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  transition: all 0.3s;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  border-color: #50c4b3;
+  box-shadow: 0 0 0 3px rgba(80, 196, 179, 0.2);
+}
+
+/* 按钮样式 */
+button {
+  padding: 12px 30px;
+  font-size: 16px;
+  background: linear-gradient(to right, #50c4b3, #32b68c);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
+/* 摘要框样式 */
+.summary-box {
+  text-align: left;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #e9f3fb;
+  border-left: 4px solid #50c4b3;
+  border-radius: 10px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #333;
+}
+
+p {
+  margin: 0;
+}
